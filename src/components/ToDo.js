@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { toggleToDo } from '../../actions';
+import { toggleToDo } from '../actions';
 
 const ToDo = ({ id, todo, completed, toggleToDo }) => {
     return(
